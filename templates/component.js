@@ -1,7 +1,10 @@
 /**
  * @name <<%= componentName %>>
  * @desc Vue v2.x component
- * @usage `<<%= componentName  %>></<%= componentName %>>`
+ * @type {Function}
+ * @source `assets/js/components/<%= jsFilePath %>`
+ * @usage
+ *  @html `<<%= componentName  %>></<%= componentName %>>`
  * @docs https://vuejs.org/v2/guide/components.html
  */
 
