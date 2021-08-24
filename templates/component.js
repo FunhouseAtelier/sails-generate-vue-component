@@ -1,7 +1,7 @@
 /**
  * @name <<%= componentName %>>
  * @desc Vue v2.x component
- * @type {Function}
+ * @type {Component}
  * @source `assets/js/components/<%= jsFilePath %>`
  * @usage
  *  @html `<<%= componentName  %>></<%= componentName %>>`
@@ -10,54 +10,54 @@
 
 parasails.registerComponent('<%= componentName %>', {
 
-    //  ╔═╗╦═╗╔═╗╔═╗╔═╗
-    //  ╠═╝╠╦╝║ ║╠═╝╚═╗
-    //  ╩  ╩╚═╚═╝╩  ╚═╝
-    props: {
-      
-    },
-  
-    //  ╦╔╗╔╦╔╦╗╦╔═╗╦    ╔═╗╔╦╗╔═╗╔╦╗╔═╗
-    //  ║║║║║ ║ ║╠═╣║    ╚═╗ ║ ╠═╣ ║ ║╣
-    //  ╩╝╚╝╩ ╩ ╩╩ ╩╩═╝  ╚═╝ ╩ ╩ ╩ ╩ ╚═╝
-    data: function (){
-      return {
-  
-      };
-    },
-  
-    //  ╦ ╦╔╦╗╔╦╗╦
-    //  ╠═╣ ║ ║║║║
-    //  ╩ ╩ ╩ ╩ ╩╩═╝
-    template: 
-      `<div>Welcome to your new component</div>`
-    ,
-  
-    //  ╦  ╦╔═╗╔═╗╔═╗╦ ╦╔═╗╦  ╔═╗
-    //  ║  ║╠╣ ║╣ ║  ╚╦╝║  ║  ║╣
-    //  ╩═╝╩╚  ╚═╝╚═╝ ╩ ╚═╝╩═╝╚═╝
-    beforeMount: function() {
-  
-    },
-  
-    mounted: function (){
-  
-    },
-  
-    beforeDestroy: function() {
-  
-    },
-  
-    watch: {
+  //  ╔═╗╦═╗╔═╗╔═╗╔═╗
+  //  ╠═╝╠╦╝║ ║╠═╝╚═╗
+  //  ╩  ╩╚═╚═╝╩  ╚═╝
+  props: {
+    
+  },
 
-    },
+  //  ╦╔╗╔╦╔╦╗╦╔═╗╦    ╔═╗╔╦╗╔═╗╔╦╗╔═╗
+  //  ║║║║║ ║ ║╠═╣║    ╚═╗ ║ ╠═╣ ║ ║╣
+  //  ╩╝╚╝╩ ╩ ╩╩ ╩╩═╝  ╚═╝ ╩ ╩ ╩ ╩ ╚═╝
+  data: function (){
+    return {
 
-    //  ╦╔╗╔╔╦╗╔═╗╦═╗╔═╗╔═╗╔╦╗╦╔═╗╔╗╔╔═╗
-    //  ║║║║ ║ ║╣ ╠╦╝╠═╣║   ║ ║║ ║║║║╚═╗
-    //  ╩╝╚╝ ╩ ╚═╝╩╚═╩ ╩╚═╝ ╩ ╩╚═╝╝╚╝╚═╝
-    methods: {
-  
-    },
-  
-  });
+    };
+  },
+
+  //  ╦ ╦╔╦╗╔╦╗╦
+  //  ╠═╣ ║ ║║║║
+  //  ╩ ╩ ╩ ╩ ╩╩═╝
+  template: `
+    <div>Welcome to your new component</div>
+  `,
+
+  //  ╦  ╦╔═╗╔═╗╔═╗╦ ╦╔═╗╦  ╔═╗
+  //  ║  ║╠╣ ║╣ ║  ╚╦╝║  ║  ║╣
+  //  ╩═╝╩╚  ╚═╝╚═╝ ╩ ╚═╝╩═╝╚═╝
+  beforeMount: function() {
+
+  },
+
+  mounted: function (){
+
+  },
+
+  beforeDestroy: function() {
+
+  },
+
+  watch: {
+
+  },
+
+  //  ╦╔╗╔╔╦╗╔═╗╦═╗╔═╗╔═╗╔╦╗╦╔═╗╔╗╔╔═╗
+  //  ║║║║ ║ ║╣ ╠╦╝╠═╣║   ║ ║║ ║║║║╚═╗
+  //  ╩╝╚╝ ╩ ╚═╝╩╚═╩ ╩╚═╝ ╩ ╩╚═╝╝╚╝╚═╝
+  methods: {
+
+  },
+
+});
   
